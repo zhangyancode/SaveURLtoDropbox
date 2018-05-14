@@ -18,6 +18,7 @@ var options = {
     // between 0 and 1. The progress callback is guaranteed to be called at least
     // once with the value 1.
     progress: function (progress) {
+		console.log(progress);
 		$('#progress').val(progress);
 	},
 
