@@ -28,7 +28,10 @@ var options = {
     // Error is called in the event of an unexpected response from the server
     // hosting the files, such as not being able to find a file. This callback is
     // also called if there is an error on Dropbox or if the user is over quota.
-    error: function (errorMessage) {}
+    error: function (errorMessage) {
+		alert("Error! "+errorMessage);
+
+	}
 };
 // var button = Dropbox.createSaveButton(options);
 // document.getElementById("container").appendChild(button);
