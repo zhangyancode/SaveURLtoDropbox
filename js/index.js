@@ -19,7 +19,7 @@ var options = {
     // once with the value 1.
     progress: function (progress) {
 		console.log(progress);
-		$('#progress').text(progress);
+		$('#progress').html(progress);
 	},
 
     // Cancel is called if the user presses the Cancel button or closes the Saver.
